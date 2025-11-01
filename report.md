@@ -22,4 +22,5 @@
 
 ## Notes
 - Tests exécutés : `npm run lint:html`, `npm run lint:css`, `npm run build`.
+- La branche `gh-pages` contient la version statique (issue de `dist/`). Configurez GitHub Pages sur cette branche si ce n'est pas déjà actif.
 - La navigation sticky s’adapte mobile/desktop ; pensez à valider l’expérience responsive avec vos assets définitifs.
