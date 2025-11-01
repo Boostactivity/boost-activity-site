@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact – Boost Activity</title>
+    <meta name="description" content="Contactez Boost Activity pour un audit gratuit, une prise de rendez-vous ou un échange WhatsApp.">
+    <link rel="canonical" href="https://boostactivity.github.io/boost-activity-site/contact/">
+    <link rel="icon" href="../assets/img/favicon.png">
+    <meta property="og:title" content="Contact Boost Activity">
+    <meta property="og:description" content="Parlons de vos objectifs : audit gratuit, WhatsApp ou prise de rendez-vous.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://boostactivity.github.io/boost-activity-site/contact/">
+    <meta property="og:image" content="../assets/img/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact Boost Activity">
+    <meta name="twitter:description" content="Parlons de vos objectifs : audit gratuit, WhatsApp ou prise de rendez-vous.">
+    <meta name="twitter:image" content="../assets/img/og-image.png">
+    <link rel="stylesheet" href="../assets/css/theme.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="brand" href="../index.html">
+          <img src="../assets/img/logo-placeholder.svg" alt="Boost Activity">
+          <span>Boost Activity</span>
+        </a>
+        <nav class="primary-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../services/index.html">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="../index.html#methodologie">Méthodologie</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <a class="btn btn-outline" href="https://wa.me/0000000000">WhatsApp</a>
+          <a class="btn btn-primary" href="#formulaire">Demander un audit gratuit</a>
+        </div>
+        <button class="mobile-toggle" type="button" aria-label="Menu" data-mobile-toggle>
+          ☰
+        </button>
+      </div>
+      <div class="mobile-menu" data-mobile-menu>
+        <nav aria-label="Navigation mobile">
+          <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../services/index.html">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="../index.html#methodologie">Méthodologie</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <a class="btn btn-outline" href="https://wa.me/0000000000">WhatsApp</a>
+          <a class="btn btn-primary" href="#formulaire">Demander un audit gratuit</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="contact">
+        <div class="wrapper">
+          <span class="badge">Contact</span>
+          <h1>Discutons de vos objectifs</h1>
+          <p class="section-intro">
+            Choisissez le canal qui vous convient le mieux : formulaire, WhatsApp ou rendez-vous
+            programmé.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrapper contact-section" id="formulaire">
+          <article class="contact-card">
+            <h2>Formulaire rapide</h2>
+            <form action="mailto:contact@boostactivity.fr" method="post" enctype="text/plain">
+              <label for="nom">Nom & prénom</label>
+              <input id="nom" name="Nom" type="text" required>
+
+              <label for="structure">Entreprise ou restaurant</label>
+              <input id="structure" name="Structure" type="text" required>
+
+              <label for="email">E-mail</label>
+              <input id="email" name="Email" type="email" required>
+
+              <label for="message">Votre besoin</label>
+              <textarea id="message" name="Message" required></textarea>
+
+              <button class="btn btn-primary" type="submit">Envoyer la demande</button>
+            </form>
+          </article>
+          <article class="contact-card">
+            <h2>Contacter directement</h2>
+            <p>
+              <strong>WhatsApp :</strong>
+              <a href="https://wa.me/0000000000" target="_blank" rel="noopener">Discussion instantanée</a>
+            </p>
+            <p>
+              <strong>E-mail :</strong>
+              <a href="mailto:contact@boostactivity.fr">contact@boostactivity.fr</a>
+            </p>
+            <p>
+              <strong>Prendre rendez-vous :</strong>
+              <a class="btn btn-outline" href="https://cal.com/votre-calendrier" target="_blank" rel="noopener">Planifier un créneau</a>
+            </p>
+            <p>
+              Nous répondons sous 24h ouvrées avec un plan d'action priorisé.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <div class="footer-bottom">
+          <span>© <span id="year">2025</span> Boost Activity.</span>
+          <a href="../index.html#cta-final">Prenez rendez-vous</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="consent-banner" role="dialog" aria-live="polite" data-consent-banner>
+      <p>Nous utilisons des cookies pour mesurer l'audience et améliorer votre expérience.</p>
+      <div class="consent-actions">
+        <button class="btn btn-outline" type="button" data-consent-deny>Refuser</button>
+        <button class="btn btn-primary" type="button" data-consent-accept>Accepter</button>
+      </div>
+    </div>
+
+    <script src="../assets/js/main.js" type="module"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

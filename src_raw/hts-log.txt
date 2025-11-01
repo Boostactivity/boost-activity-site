@@ -1,0 +1,534 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 24 Oct 2025 21:19:25 at https://www.educademy.fr/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "fr, en, *" https://www.educademy.fr/ -O1 "C:\Mes Sites Web\Site" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:20:04	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.educademy.fr/)
+21:23:25	Warning: 	Warning: store application/octet-stream without scan: C:/Mes Sites Web/Site/www.educademy.fr/wp-content/themes/educademy/build/images/angle-black.svg
+21:29:33	Warning: 	Moved Permanently for https://www.educademy.fr/?p=229
+21:29:33	Warning: 	File has moved from https://www.educademy.fr/?p=229 to https://www.educademy.fr/formation-auto-entrepreneur/
+21:29:33	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-auto-entrepreneur%2F (from https://www.educademy.fr/formation-auto-entrepreneur/)
+21:29:33	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-auto-entrepreneur%2F&format=xml (from https://www.educademy.fr/formation-auto-entrepreneur/)
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=67
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=67 to https://www.educademy.fr/financement/
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=72
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=72 to https://www.educademy.fr/lecole/
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1754
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=1754 to https://www.educademy.fr/formation-ecommerce/
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-ecommerce%2F (from https://www.educademy.fr/formation-ecommerce/)
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-ecommerce%2F&format=xml (from https://www.educademy.fr/formation-ecommerce/)
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1512
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=1512 to https://www.educademy.fr/formation-creation-entreprise/
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-creation-entreprise%2F (from https://www.educademy.fr/formation-creation-entreprise/)
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-creation-entreprise%2F&format=xml (from https://www.educademy.fr/formation-creation-entreprise/)
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1505
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=1505 to https://www.educademy.fr/formation-reseaux-sociaux/
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-reseaux-sociaux%2F (from https://www.educademy.fr/formation-reseaux-sociaux/)
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-reseaux-sociaux%2F&format=xml (from https://www.educademy.fr/formation-reseaux-sociaux/)
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1852
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=1852 to https://www.educademy.fr/formation-intelligence-artificielle/
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-intelligence-artificielle%2F (from https://www.educademy.fr/formation-intelligence-artificielle/)
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-intelligence-artificielle%2F&format=xml (from https://www.educademy.fr/formation-intelligence-artificielle/)
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2186
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=2186 to https://www.educademy.fr/formation-creation-site-internet/
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-creation-site-internet%2F (from https://www.educademy.fr/formation-creation-site-internet/)
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-creation-site-internet%2F&format=xml (from https://www.educademy.fr/formation-creation-site-internet/)
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=359
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=359 to https://www.educademy.fr/formation-google-ads/
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-google-ads%2F (from https://www.educademy.fr/formation-google-ads/)
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-google-ads%2F&format=xml (from https://www.educademy.fr/formation-google-ads/)
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=331
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=331 to https://www.educademy.fr/formation-marketing-digital/
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-marketing-digital%2F (from https://www.educademy.fr/formation-marketing-digital/)
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-marketing-digital%2F&format=xml (from https://www.educademy.fr/formation-marketing-digital/)
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=307
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=307 to https://www.educademy.fr/formation-etude-de-marche/
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-etude-de-marche%2F (from https://www.educademy.fr/formation-etude-de-marche/)
+21:31:06	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-etude-de-marche%2F&format=xml (from https://www.educademy.fr/formation-etude-de-marche/)
+21:31:06	Warning: 	Moved Permanently for https://www.educademy.fr/?p=330
+21:31:06	Warning: 	File has moved from https://www.educademy.fr/?p=330 to https://www.educademy.fr/formation-wordpress/
+21:31:07	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-wordpress%2F (from https://www.educademy.fr/formation-wordpress/)
+21:31:07	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-wordpress%2F&format=xml (from https://www.educademy.fr/formation-wordpress/)
+21:31:07	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2762
+21:31:07	Warning: 	File has moved from https://www.educademy.fr/?p=2762 to https://www.educademy.fr/academie/graphisme-pao/fusion-de-donnees-indesign/
+21:31:07	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Ffusion-de-donnees-indesign%2F (from https://www.educademy.fr/academie/graphisme-pao/fusion-de-donnees-indesign/)
+21:31:07	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Ffusion-de-donnees-indesign%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/fusion-de-donnees-indesign/)
+21:31:09	Error: 	"Bad Request" (400) at link https://www.educademy.fr/wp-admin/admin-ajax.php (from https://www.educademy.fr/academie/graphisme-pao/fusion-de-donnees-indesign/)
+21:31:11	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2978
+21:31:11	Warning: 	File has moved from https://www.educademy.fr/?p=2978 to https://www.educademy.fr/academie/bureautique/comment-mettre-video-powerpoint/
+21:31:11	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-mettre-video-powerpoint%2F (from https://www.educademy.fr/academie/bureautique/comment-mettre-video-powerpoint/)
+21:31:11	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-mettre-video-powerpoint%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-mettre-video-powerpoint/)
+21:31:18	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2917
+21:31:18	Warning: 	File has moved from https://www.educademy.fr/?p=2917 to https://www.educademy.fr/academie/graphisme-pao/comment-flouter-image-photoshop/
+21:31:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fcomment-flouter-image-photoshop%2F (from https://www.educademy.fr/academie/graphisme-pao/comment-flouter-image-photoshop/)
+21:31:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fcomment-flouter-image-photoshop%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/comment-flouter-image-photoshop/)
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=441
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=441 to https://www.educademy.fr/qualiopi/
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1294
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=1294 to https://www.educademy.fr/lequipe/
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=419
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=419 to https://www.educademy.fr/recrutement/
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=193
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=193 to https://www.educademy.fr/pedagogie/
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=265
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=265 to https://www.educademy.fr/reglement-interieur/
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=391
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=391 to https://www.educademy.fr/cgv/
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=151
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=151 to https://www.educademy.fr/mentions-legales/
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=3
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=3 to https://www.educademy.fr/confidentialite/
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=345
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=345 to https://www.educademy.fr/formation-seo/
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-seo%2F (from https://www.educademy.fr/formation-seo/)
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-seo%2F&format=xml (from https://www.educademy.fr/formation-seo/)
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1717
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=1717 to https://www.educademy.fr/formation-anglais/
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-anglais%2F (from https://www.educademy.fr/formation-anglais/)
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-anglais%2F&format=xml (from https://www.educademy.fr/formation-anglais/)
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=338
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=338 to https://www.educademy.fr/formation-powerpoint/
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-powerpoint%2F (from https://www.educademy.fr/formation-powerpoint/)
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-powerpoint%2F&format=xml (from https://www.educademy.fr/formation-powerpoint/)
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=309
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=309 to https://www.educademy.fr/formation-sarl/
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-sarl%2F (from https://www.educademy.fr/formation-sarl/)
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-sarl%2F&format=xml (from https://www.educademy.fr/formation-sarl/)
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=865
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=865 to https://www.educademy.fr/formation-photoshop/
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-photoshop%2F (from https://www.educademy.fr/formation-photoshop/)
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-photoshop%2F&format=xml (from https://www.educademy.fr/formation-photoshop/)
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1964
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=1964 to https://www.educademy.fr/formation-webmarketing/
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-webmarketing%2F (from https://www.educademy.fr/formation-webmarketing/)
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-webmarketing%2F&format=xml (from https://www.educademy.fr/formation-webmarketing/)
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=374
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=374 to https://www.educademy.fr/formation-outils-google/
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-outils-google%2F (from https://www.educademy.fr/formation-outils-google/)
+21:31:24	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-outils-google%2F&format=xml (from https://www.educademy.fr/formation-outils-google/)
+21:31:24	Warning: 	Moved Permanently for https://www.educademy.fr/?p=251
+21:31:24	Warning: 	File has moved from https://www.educademy.fr/?p=251 to https://www.educademy.fr/formation-word/
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-word%2F (from https://www.educademy.fr/formation-word/)
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-word%2F&format=xml (from https://www.educademy.fr/formation-word/)
+21:31:25	Warning: 	Moved Permanently for https://www.educademy.fr/?p=247
+21:31:25	Warning: 	File has moved from https://www.educademy.fr/?p=247 to https://www.educademy.fr/formation-excel/
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-excel%2F (from https://www.educademy.fr/formation-excel/)
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-excel%2F&format=xml (from https://www.educademy.fr/formation-excel/)
+21:31:25	Warning: 	Moved Permanently for https://www.educademy.fr/?p=876
+21:31:25	Warning: 	File has moved from https://www.educademy.fr/?p=876 to https://www.educademy.fr/formation-illustrator/
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-illustrator%2F (from https://www.educademy.fr/formation-illustrator/)
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-illustrator%2F&format=xml (from https://www.educademy.fr/formation-illustrator/)
+21:31:25	Warning: 	Moved Permanently for https://www.educademy.fr/?p=913
+21:31:25	Warning: 	File has moved from https://www.educademy.fr/?p=913 to https://www.educademy.fr/formation-revit/
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-revit%2F (from https://www.educademy.fr/formation-revit/)
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-revit%2F&format=xml (from https://www.educademy.fr/formation-revit/)
+21:31:25	Warning: 	Moved Permanently for https://www.educademy.fr/?p=881
+21:31:25	Warning: 	File has moved from https://www.educademy.fr/?p=881 to https://www.educademy.fr/formation-indesign/
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-indesign%2F (from https://www.educademy.fr/formation-indesign/)
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-indesign%2F&format=xml (from https://www.educademy.fr/formation-indesign/)
+21:31:25	Warning: 	Moved Permanently for https://www.educademy.fr/?p=928
+21:31:25	Warning: 	File has moved from https://www.educademy.fr/?p=928 to https://www.educademy.fr/formation-sketchup/
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-sketchup%2F (from https://www.educademy.fr/formation-sketchup/)
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-sketchup%2F&format=xml (from https://www.educademy.fr/formation-sketchup/)
+21:31:25	Warning: 	Moved Permanently for https://www.educademy.fr/?p=228
+21:31:25	Warning: 	File has moved from https://www.educademy.fr/?p=228 to https://www.educademy.fr/formation-community-management/
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-community-management%2F (from https://www.educademy.fr/formation-community-management/)
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-community-management%2F&format=xml (from https://www.educademy.fr/formation-community-management/)
+21:31:25	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1769
+21:31:25	Warning: 	File has moved from https://www.educademy.fr/?p=1769 to https://www.educademy.fr/formation-canva/
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-canva%2F (from https://www.educademy.fr/formation-canva/)
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-canva%2F&format=xml (from https://www.educademy.fr/formation-canva/)
+21:31:25	Warning: 	Moved Permanently for https://www.educademy.fr/?p=371
+21:31:25	Warning: 	File has moved from https://www.educademy.fr/?p=371 to https://www.educademy.fr/formation-sas/
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-sas%2F (from https://www.educademy.fr/formation-sas/)
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-sas%2F&format=xml (from https://www.educademy.fr/formation-sas/)
+21:31:25	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1750
+21:31:25	Warning: 	File has moved from https://www.educademy.fr/?p=1750 to https://www.educademy.fr/formation-referencement-naturel/
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-referencement-naturel%2F (from https://www.educademy.fr/formation-referencement-naturel/)
+21:31:25	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Fformation-referencement-naturel%2F&format=xml (from https://www.educademy.fr/formation-referencement-naturel/)
+21:35:18	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2989
+21:35:18	Warning: 	File has moved from https://www.educademy.fr/?p=2989 to https://www.educademy.fr/academie/financement/opco-atlas/
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fopco-atlas%2F (from https://www.educademy.fr/academie/financement/opco-atlas/)
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fopco-atlas%2F&format=xml (from https://www.educademy.fr/academie/financement/opco-atlas/)
+21:35:18	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2943
+21:35:18	Warning: 	File has moved from https://www.educademy.fr/?p=2943 to https://www.educademy.fr/academie/marketing-digital/comment-faire-audit-seo/
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-faire-audit-seo%2F (from https://www.educademy.fr/academie/marketing-digital/comment-faire-audit-seo/)
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-faire-audit-seo%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/comment-faire-audit-seo/)
+21:35:18	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2969
+21:35:18	Warning: 	File has moved from https://www.educademy.fr/?p=2969 to https://www.educademy.fr/academie/bureautique/comment-faire-table-des-matieres-word/
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-table-des-matieres-word%2F (from https://www.educademy.fr/academie/bureautique/comment-faire-table-des-matieres-word/)
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-table-des-matieres-word%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-faire-table-des-matieres-word/)
+21:35:18	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2248
+21:35:18	Warning: 	File has moved from https://www.educademy.fr/?p=2248 to https://www.educademy.fr/academie/graphisme-pao/pagination-indesign/
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fpagination-indesign%2F (from https://www.educademy.fr/academie/graphisme-pao/pagination-indesign/)
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fpagination-indesign%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/pagination-indesign/)
+21:35:18	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2252
+21:35:18	Warning: 	File has moved from https://www.educademy.fr/?p=2252 to https://www.educademy.fr/academie/graphisme-pao/fond-perdu-indesign/
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Ffond-perdu-indesign%2F (from https://www.educademy.fr/academie/graphisme-pao/fond-perdu-indesign/)
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Ffond-perdu-indesign%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/fond-perdu-indesign/)
+21:35:18	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1846
+21:35:18	Warning: 	File has moved from https://www.educademy.fr/?p=1846 to https://www.educademy.fr/academie/bureautique/comment-faire-un-organigramme-sur-powerpoint/
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-un-organigramme-sur-powerpoint%2F (from https://www.educademy.fr/academie/bureautique/comment-faire-un-organigramme-sur-powerpoint/)
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-un-organigramme-sur-powerpoint%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-faire-un-organigramme-sur-powerpoint/)
+21:35:18	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2981
+21:35:18	Warning: 	File has moved from https://www.educademy.fr/?p=2981 to https://www.educademy.fr/academie/bureautique/comment-numeroter-pages-powerpoint/
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-numeroter-pages-powerpoint%2F (from https://www.educademy.fr/academie/bureautique/comment-numeroter-pages-powerpoint/)
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-numeroter-pages-powerpoint%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-numeroter-pages-powerpoint/)
+21:35:18	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1871
+21:35:18	Warning: 	File has moved from https://www.educademy.fr/?p=1871 to https://www.educademy.fr/academie/bureautique/inserer-sommaire-powerpoint/
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Finserer-sommaire-powerpoint%2F (from https://www.educademy.fr/academie/bureautique/inserer-sommaire-powerpoint/)
+21:35:18	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Finserer-sommaire-powerpoint%2F&format=xml (from https://www.educademy.fr/academie/bureautique/inserer-sommaire-powerpoint/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1878
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=1878 to https://www.educademy.fr/academie/graphisme-pao/comment-detourer-image-photoshop/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fcomment-detourer-image-photoshop%2F (from https://www.educademy.fr/academie/graphisme-pao/comment-detourer-image-photoshop/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fcomment-detourer-image-photoshop%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/comment-detourer-image-photoshop/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1899
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=1899 to https://www.educademy.fr/academie/graphisme-pao/photoshop-vs-lightroom-lequel-choisir/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fphotoshop-vs-lightroom-lequel-choisir%2F (from https://www.educademy.fr/academie/graphisme-pao/photoshop-vs-lightroom-lequel-choisir/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fphotoshop-vs-lightroom-lequel-choisir%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/photoshop-vs-lightroom-lequel-choisir/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2608
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=2608 to https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-bic-bnc/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fauto-entrepreneur-bic-bnc%2F (from https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-bic-bnc/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fauto-entrepreneur-bic-bnc%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-bic-bnc/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2217
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=2217 to https://www.educademy.fr/academie/entrepreneuriat/pret-creation-entreprise/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fpret-creation-entreprise%2F (from https://www.educademy.fr/academie/entrepreneuriat/pret-creation-entreprise/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fpret-creation-entreprise%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/pret-creation-entreprise/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2222
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=2222 to https://www.educademy.fr/academie/entrepreneuriat/sas-ou-sarl/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fsas-ou-sarl%2F (from https://www.educademy.fr/academie/entrepreneuriat/sas-ou-sarl/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fsas-ou-sarl%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/sas-ou-sarl/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2220
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=2220 to https://www.educademy.fr/academie/entrepreneuriat/sas-cest-quoi/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fsas-cest-quoi%2F (from https://www.educademy.fr/academie/entrepreneuriat/sas-cest-quoi/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fsas-cest-quoi%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/sas-cest-quoi/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2229
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=2229 to https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-compte-bancaire-personnel-ou-professionnel/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fauto-entrepreneur-compte-bancaire-personnel-ou-professionnel%2F (from https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-compte-bancaire-personnel-ou-professionnel/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fauto-entrepreneur-compte-bancaire-personnel-ou-professionnel%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-compte-bancaire-personnel-ou-professionnel/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2227
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=2227 to https://www.educademy.fr/academie/entrepreneuriat/comment-devenir-auto-entrepreneur-gratuitement/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fcomment-devenir-auto-entrepreneur-gratuitement%2F (from https://www.educademy.fr/academie/entrepreneuriat/comment-devenir-auto-entrepreneur-gratuitement/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fcomment-devenir-auto-entrepreneur-gratuitement%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/comment-devenir-auto-entrepreneur-gratuitement/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/devenir-auto-entrepreneur-gratuitement-1024x683.jpg (from https://www.educademy.fr/academie/entrepreneuriat/comment-devenir-auto-entrepreneur-gratuitement/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/devenir-auto-entrepreneur-gratuitement-scaled.jpg (from https://www.educademy.fr/academie/entrepreneuriat/comment-devenir-auto-entrepreneur-gratuitement/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2610 (from https://www.educademy.fr/academie/entrepreneuriat/domiciliation-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fdomiciliation-auto-entrepreneur%2F (from https://www.educademy.fr/academie/entrepreneuriat/domiciliation-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fdomiciliation-auto-entrepreneur%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/domiciliation-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/09/domiciliation-auto-entrepreneur-1024x682.webp (from https://www.educademy.fr/academie/entrepreneuriat/domiciliation-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/02/Screenshot-2025-02-09-at-19.08.00.webp (from https://www.educademy.fr/academie/entrepreneuriat/domiciliation-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/09/domiciliation-auto-entrepreneur.webp (from https://www.educademy.fr/academie/entrepreneuriat/domiciliation-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2552 (from https://www.educademy.fr/academie/entrepreneuriat/micro-entreprise-ou-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fmicro-entreprise-ou-auto-entrepreneur%2F (from https://www.educademy.fr/academie/entrepreneuriat/micro-entreprise-ou-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fmicro-entreprise-ou-auto-entrepreneur%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/micro-entreprise-ou-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/micro-entreprise-ou-auto-entreprise-1-1024x573.jpg (from https://www.educademy.fr/academie/entrepreneuriat/micro-entreprise-ou-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/micro-entreprise-ou-auto-entreprise-1.jpg (from https://www.educademy.fr/academie/entrepreneuriat/micro-entreprise-ou-auto-entrepreneur/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2570 (from https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-embaucher-salarie/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fauto-entrepreneur-embaucher-salarie%2F (from https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-embaucher-salarie/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fauto-entrepreneur-embaucher-salarie%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-embaucher-salarie/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/auto-entrepreneur-embaucher-salarie-1-1024x683.webp (from https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-embaucher-salarie/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/auto-entrepreneur-embaucher-salarie-1.webp (from https://www.educademy.fr/academie/entrepreneuriat/auto-entrepreneur-embaucher-salarie/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2614 (from https://www.educademy.fr/academie/entrepreneuriat/cumuler-chomage-creation-entreprise/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fcumuler-chomage-creation-entreprise%2F (from https://www.educademy.fr/academie/entrepreneuriat/cumuler-chomage-creation-entreprise/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fcumuler-chomage-creation-entreprise%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/cumuler-chomage-creation-entreprise/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/cumul-chomage-creation-entreprise-1-1024x683.jpg (from https://www.educademy.fr/academie/entrepreneuriat/cumuler-chomage-creation-entreprise/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2215
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=2215 to https://www.educademy.fr/academie/entrepreneuriat/aide-creation-entreprise/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Faide-creation-entreprise%2F (from https://www.educademy.fr/academie/entrepreneuriat/aide-creation-entreprise/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Faide-creation-entreprise%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/aide-creation-entreprise/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/aides-creation-entreprise-1024x652.jpg (from https://www.educademy.fr/academie/entrepreneuriat/aide-creation-entreprise/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/aides-creation-entreprise-scaled.jpg (from https://www.educademy.fr/academie/entrepreneuriat/aide-creation-entreprise/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2213 (from https://www.educademy.fr/academie/entrepreneuriat/formation-creation-entreprise/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fformation-creation-entreprise%2F (from https://www.educademy.fr/academie/entrepreneuriat/formation-creation-entreprise/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fformation-creation-entreprise%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/formation-creation-entreprise/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2231 (from https://www.educademy.fr/academie/entrepreneuriat/sarl-cest-quoi/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fsarl-cest-quoi%2F (from https://www.educademy.fr/academie/entrepreneuriat/sarl-cest-quoi/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fentrepreneuriat%2Fsarl-cest-quoi%2F&format=xml (from https://www.educademy.fr/academie/entrepreneuriat/sarl-cest-quoi/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/SARL-formation-1024x683.jpg (from https://www.educademy.fr/academie/entrepreneuriat/sarl-cest-quoi/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/SARL-formation-scaled.jpg (from https://www.educademy.fr/academie/entrepreneuriat/sarl-cest-quoi/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1893
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=1893 to https://www.educademy.fr/academie/graphisme-pao/rendus-realistes-sketchup/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Frendus-realistes-sketchup%2F (from https://www.educademy.fr/academie/graphisme-pao/rendus-realistes-sketchup/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Frendus-realistes-sketchup%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/rendus-realistes-sketchup/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/05/rendus-realistes-sketchup-1024x683.webp (from https://www.educademy.fr/academie/graphisme-pao/rendus-realistes-sketchup/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/formation-sketchup (from https://www.educademy.fr/academie/graphisme-pao/rendus-realistes-sketchup/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2571
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=2571 to https://www.educademy.fr/academie/graphisme-pao/ombre-portee-illustrator/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fombre-portee-illustrator%2F (from https://www.educademy.fr/academie/graphisme-pao/ombre-portee-illustrator/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fombre-portee-illustrator%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/ombre-portee-illustrator/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/pexels-introspectivedsgn-4889302-1024x683.jpg (from https://www.educademy.fr/academie/graphisme-pao/ombre-portee-illustrator/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/pexels-introspectivedsgn-4889302-scaled.jpg (from https://www.educademy.fr/academie/graphisme-pao/ombre-portee-illustrator/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2235 (from https://www.educademy.fr/academie/graphisme-pao/comment-rogner-image-illustrator/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fcomment-rogner-image-illustrator%2F (from https://www.educademy.fr/academie/graphisme-pao/comment-rogner-image-illustrator/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fcomment-rogner-image-illustrator%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/comment-rogner-image-illustrator/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2539 (from https://www.educademy.fr/academie/graphisme-pao/pathfinder-illustrator/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fpathfinder-illustrator%2F (from https://www.educademy.fr/academie/graphisme-pao/pathfinder-illustrator/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fpathfinder-illustrator%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/pathfinder-illustrator/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/Illustrator-pathfinder-comment-utiliser-1024x684.png (from https://www.educademy.fr/academie/graphisme-pao/pathfinder-illustrator/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2233
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=2233 to https://www.educademy.fr/academie/graphisme-pao/comment-vectoriser-image-illustrator/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fcomment-vectoriser-image-illustrator%2F (from https://www.educademy.fr/academie/graphisme-pao/comment-vectoriser-image-illustrator/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fcomment-vectoriser-image-illustrator%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/comment-vectoriser-image-illustrator/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/comment-vectoriser-illustrator-1024x685.jpg (from https://www.educademy.fr/academie/graphisme-pao/comment-vectoriser-image-illustrator/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/comment-vectoriser-illustrator-scaled.jpg (from https://www.educademy.fr/academie/graphisme-pao/comment-vectoriser-image-illustrator/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=1896 (from https://www.educademy.fr/academie/graphisme-pao/sketchup-architecture/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fsketchup-architecture%2F (from https://www.educademy.fr/academie/graphisme-pao/sketchup-architecture/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fgraphisme-pao%2Fsketchup-architecture%2F&format=xml (from https://www.educademy.fr/academie/graphisme-pao/sketchup-architecture/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1988
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=1988 to https://www.educademy.fr/academie/marketing-digital/dropshipping-cest-quoi/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fdropshipping-cest-quoi%2F (from https://www.educademy.fr/academie/marketing-digital/dropshipping-cest-quoi/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fdropshipping-cest-quoi%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/dropshipping-cest-quoi/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/ventes-d-achats-du-cyber-monday-1024x683.jpg (from https://www.educademy.fr/academie/marketing-digital/dropshipping-cest-quoi/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1375
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=1375 to https://www.educademy.fr/academie/marketing-digital/marketing-digital-cest-quoi/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fmarketing-digital-cest-quoi%2F (from https://www.educademy.fr/academie/marketing-digital/marketing-digital-cest-quoi/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fmarketing-digital-cest-quoi%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/marketing-digital-cest-quoi/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/01/marketing-digital-cest-quoi-1024x765.webp (from https://www.educademy.fr/academie/marketing-digital/marketing-digital-cest-quoi/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/01/hands-holding-smartphone-social-media-concept-1024x681.jpg (from https://www.educademy.fr/academie/marketing-digital/marketing-digital-cest-quoi/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/formation-community-management (from https://www.educademy.fr/academie/marketing-digital/marketing-digital-cest-quoi/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1495
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=1495 to https://www.educademy.fr/academie/marketing-digital/salaire-debutant-marketing-digital/
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fsalaire-debutant-marketing-digital%2F (from https://www.educademy.fr/academie/marketing-digital/salaire-debutant-marketing-digital/)
+21:35:19	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fsalaire-debutant-marketing-digital%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/salaire-debutant-marketing-digital/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/02/Salaire-dun-debutant-en-marketing-digital-en-2025--1024x683.webp (from https://www.educademy.fr/academie/marketing-digital/salaire-debutant-marketing-digital/)
+21:35:19	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/02/Salaire-moyen-dun-debutant-en-Marketing-Digital-en-2025-1-1024x683.webp (from https://www.educademy.fr/academie/marketing-digital/salaire-debutant-marketing-digital/)
+21:35:19	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2238
+21:35:19	Warning: 	File has moved from https://www.educademy.fr/?p=2238 to https://www.educademy.fr/academie/marketing-digital/formation-intelligence-artificielle-cpf/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fformation-intelligence-artificielle-cpf%2F (from https://www.educademy.fr/academie/marketing-digital/formation-intelligence-artificielle-cpf/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fformation-intelligence-artificielle-cpf%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/formation-intelligence-artificielle-cpf/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/intelligence-artificielle-cpf-1024x683.jpg (from https://www.educademy.fr/academie/marketing-digital/formation-intelligence-artificielle-cpf/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/intelligence-artificielle-cpf-scaled.jpg (from https://www.educademy.fr/academie/marketing-digital/formation-intelligence-artificielle-cpf/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2624
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=2624 to https://www.educademy.fr/academie/marketing-digital/calendrier-editorial-reseaux-sociaux/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcalendrier-editorial-reseaux-sociaux%2F (from https://www.educademy.fr/academie/marketing-digital/calendrier-editorial-reseaux-sociaux/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcalendrier-editorial-reseaux-sociaux%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/calendrier-editorial-reseaux-sociaux/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2952 (from https://www.educademy.fr/academie/marketing-digital/wordpress-cest-quoi/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fwordpress-cest-quoi%2F (from https://www.educademy.fr/academie/marketing-digital/wordpress-cest-quoi/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fwordpress-cest-quoi%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/wordpress-cest-quoi/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/10/wordpress-cest-quoi-1024x683.jpg (from https://www.educademy.fr/academie/marketing-digital/wordpress-cest-quoi/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/10/wordpress-cest-quoi-scaled.jpg (from https://www.educademy.fr/academie/marketing-digital/wordpress-cest-quoi/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1935
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=1935 to https://www.educademy.fr/academie/marketing-digital/comment-devenir-community-manager/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-devenir-community-manager%2F (from https://www.educademy.fr/academie/marketing-digital/comment-devenir-community-manager/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-devenir-community-manager%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/comment-devenir-community-manager/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/02/community-manager-1024x683.jpg (from https://www.educademy.fr/academie/marketing-digital/comment-devenir-community-manager/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/02/les-missions-dun-community-manager-1024x576.png (from https://www.educademy.fr/academie/marketing-digital/comment-devenir-community-manager/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2622
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=2622 to https://www.educademy.fr/academie/marketing-digital/formation-reseaux-sociaux/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fformation-reseaux-sociaux%2F (from https://www.educademy.fr/academie/marketing-digital/formation-reseaux-sociaux/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fformation-reseaux-sociaux%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/formation-reseaux-sociaux/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=1862 (from https://www.educademy.fr/academie/marketing-digital/meilleures-strategies-community-management/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fmeilleures-strategies-community-management%2F (from https://www.educademy.fr/academie/marketing-digital/meilleures-strategies-community-management/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fmeilleures-strategies-community-management%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/meilleures-strategies-community-management/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/05/communitymanagement-1024x683.jpg (from https://www.educademy.fr/academie/marketing-digital/meilleures-strategies-community-management/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/05/communitymanagement-scaled.jpg (from https://www.educademy.fr/academie/marketing-digital/meilleures-strategies-community-management/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2596
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=2596 to https://www.educademy.fr/academie/marketing-digital/liste-reseaux-sociaux/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fliste-reseaux-sociaux%2F (from https://www.educademy.fr/academie/marketing-digital/liste-reseaux-sociaux/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fliste-reseaux-sociaux%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/liste-reseaux-sociaux/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/09/liste-reseaux-sociaux-1024x683.webp (from https://www.educademy.fr/academie/marketing-digital/liste-reseaux-sociaux/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1982
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=1982 to https://www.educademy.fr/academie/marketing-digital/comment-ouvrir-une-boutique-shopify/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-ouvrir-une-boutique-shopify%2F (from https://www.educademy.fr/academie/marketing-digital/comment-ouvrir-une-boutique-shopify/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-ouvrir-une-boutique-shopify%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/comment-ouvrir-une-boutique-shopify/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/pexels-asphotograpy-230544-1024x683.jpg (from https://www.educademy.fr/academie/marketing-digital/comment-ouvrir-une-boutique-shopify/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/pexels-asphotograpy-230544-scaled.jpg (from https://www.educademy.fr/academie/marketing-digital/comment-ouvrir-une-boutique-shopify/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1992
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=1992 to https://www.educademy.fr/academie/marketing-digital/comment-faire-du-dropshipping/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-faire-du-dropshipping%2F (from https://www.educademy.fr/academie/marketing-digital/comment-faire-du-dropshipping/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-faire-du-dropshipping%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/comment-faire-du-dropshipping/)
+21:35:20	Error: 	"Forbidden" (403) at link https://www.educademy.fr/academie/entrepreneuriat/comment-devenir-auto-entrepreneur-gratuitement/?preview_id=1437&preview_nonce=781bdaf348&preview=true&_thumbnail_id=1438 (from https://www.educademy.fr/academie/marketing-digital/comment-faire-du-dropshipping/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1986
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=1986 to https://www.educademy.fr/academie/marketing-digital/comment-se-lancer-dans-ecommerce/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-se-lancer-dans-ecommerce%2F (from https://www.educademy.fr/academie/marketing-digital/comment-se-lancer-dans-ecommerce/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-se-lancer-dans-ecommerce%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/comment-se-lancer-dans-ecommerce/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/comment-se-lancer-ecommerce-1024x683.jpg (from https://www.educademy.fr/academie/marketing-digital/comment-se-lancer-dans-ecommerce/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/comment-se-lancer-ecommerce-scaled.jpg (from https://www.educademy.fr/academie/marketing-digital/comment-se-lancer-dans-ecommerce/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1984
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=1984 to https://www.educademy.fr/academie/marketing-digital/ecommerce-cest-quoi/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fecommerce-cest-quoi%2F (from https://www.educademy.fr/academie/marketing-digital/ecommerce-cest-quoi/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fecommerce-cest-quoi%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/ecommerce-cest-quoi/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1980
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=1980 to https://www.educademy.fr/academie/marketing-digital/prestashop-ou-shopify/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fprestashop-ou-shopify%2F (from https://www.educademy.fr/academie/marketing-digital/prestashop-ou-shopify/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fprestashop-ou-shopify%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/prestashop-ou-shopify/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/Prestashop-ou-shopify-1024x683.webp (from https://www.educademy.fr/academie/marketing-digital/prestashop-ou-shopify/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/formation-ecommerce (from https://www.educademy.fr/academie/marketing-digital/prestashop-ou-shopify/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2245
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=2245 to https://www.educademy.fr/academie/marketing-digital/shopify-ou-wordpress/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fshopify-ou-wordpress%2F (from https://www.educademy.fr/academie/marketing-digital/shopify-ou-wordpress/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fshopify-ou-wordpress%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/shopify-ou-wordpress/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/shopify-ou-wordpress-1024x573.jpg (from https://www.educademy.fr/academie/marketing-digital/shopify-ou-wordpress/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/shopify-ou-wordpress.jpg (from https://www.educademy.fr/academie/marketing-digital/shopify-ou-wordpress/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2250 (from https://www.educademy.fr/academie/marketing-digital/macron-intelligence-artificielle/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fmacron-intelligence-artificielle%2F (from https://www.educademy.fr/academie/marketing-digital/macron-intelligence-artificielle/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fmacron-intelligence-artificielle%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/macron-intelligence-artificielle/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2243
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=2243 to https://www.educademy.fr/academie/marketing-digital/formation-certifiante-intelligence-artificielle/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fformation-certifiante-intelligence-artificielle%2F (from https://www.educademy.fr/academie/marketing-digital/formation-certifiante-intelligence-artificielle/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fformation-certifiante-intelligence-artificielle%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/formation-certifiante-intelligence-artificielle/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/formation-ia-scaled-e1753824775128-1024x843.jpg (from https://www.educademy.fr/academie/marketing-digital/formation-certifiante-intelligence-artificielle/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/formation-ia-scaled-e1753824775128.jpg (from https://www.educademy.fr/academie/marketing-digital/formation-certifiante-intelligence-artificielle/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2544
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=2544 to https://www.educademy.fr/academie/marketing-digital/quelle-est-meilleure-ia-gratuite/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fquelle-est-meilleure-ia-gratuite%2F (from https://www.educademy.fr/academie/marketing-digital/quelle-est-meilleure-ia-gratuite/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fquelle-est-meilleure-ia-gratuite%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/quelle-est-meilleure-ia-gratuite/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2949
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=2949 to https://www.educademy.fr/academie/marketing-digital/comment-rediger-article-seo/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-rediger-article-seo%2F (from https://www.educademy.fr/academie/marketing-digital/comment-rediger-article-seo/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-rediger-article-seo%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/comment-rediger-article-seo/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/10/comment-rediger-article-seo-1024x683.jpg (from https://www.educademy.fr/academie/marketing-digital/comment-rediger-article-seo/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=1944 (from https://www.educademy.fr/academie/marketing-digital/consultant-seo/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fconsultant-seo%2F (from https://www.educademy.fr/academie/marketing-digital/consultant-seo/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fconsultant-seo%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/consultant-seo/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=1454 (from https://www.educademy.fr/academie/marketing-digital/difference-seo-sea/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fdifference-seo-sea%2F (from https://www.educademy.fr/academie/marketing-digital/difference-seo-sea/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fdifference-seo-sea%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/difference-seo-sea/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/02/SEO-VS-SEA-1-1024x683.png (from https://www.educademy.fr/academie/marketing-digital/difference-seo-sea/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2225 (from https://www.educademy.fr/academie/marketing-digital/comment-utiliser-wordpress/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-utiliser-wordpress%2F (from https://www.educademy.fr/academie/marketing-digital/comment-utiliser-wordpress/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fcomment-utiliser-wordpress%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/comment-utiliser-wordpress/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/comment-utiliser-wordpress-1024x683.jpg (from https://www.educademy.fr/academie/marketing-digital/comment-utiliser-wordpress/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2211 (from https://www.educademy.fr/academie/marketing-digital/formation-wordpress-cpf/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fformation-wordpress-cpf%2F (from https://www.educademy.fr/academie/marketing-digital/formation-wordpress-cpf/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fformation-wordpress-cpf%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/formation-wordpress-cpf/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/quelle-formation-wordpress-1024x683.webp (from https://www.educademy.fr/academie/marketing-digital/formation-wordpress-cpf/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/quelle-formation-wordpress-scaled.jpg (from https://www.educademy.fr/academie/marketing-digital/formation-wordpress-cpf/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2224
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=2224 to https://www.educademy.fr/academie/marketing-digital/wix-ou-wordpress/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fwix-ou-wordpress%2F (from https://www.educademy.fr/academie/marketing-digital/wix-ou-wordpress/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fmarketing-digital%2Fwix-ou-wordpress%2F&format=xml (from https://www.educademy.fr/academie/marketing-digital/wix-ou-wordpress/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2179
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=2179 to https://www.educademy.fr/academie/bureautique/comment-faire-tableau-google-doc/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-tableau-google-doc%2F (from https://www.educademy.fr/academie/bureautique/comment-faire-tableau-google-doc/)
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-tableau-google-doc%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-faire-tableau-google-doc/)
+21:35:20	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/Design-sans-titre-3-1024x748.png (from https://www.educademy.fr/academie/bureautique/comment-faire-tableau-google-doc/)
+21:35:20	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2182
+21:35:20	Warning: 	File has moved from https://www.educademy.fr/?p=2182 to https://www.educademy.fr/academie/bureautique/comment-fonctionne-google-meet/
+21:35:20	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-fonctionne-google-meet%2F (from https://www.educademy.fr/academie/bureautique/comment-fonctionne-google-meet/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-fonctionne-google-meet%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-fonctionne-google-meet/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/fonctionnement-google-meet-1024x683.webp (from https://www.educademy.fr/academie/bureautique/comment-fonctionne-google-meet/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/fonctionnement-google-meet-scaled.jpg (from https://www.educademy.fr/academie/bureautique/comment-fonctionne-google-meet/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2616
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2616 to https://www.educademy.fr/academie/bureautique/fonction-index-equiv-excel/
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Ffonction-index-equiv-excel%2F (from https://www.educademy.fr/academie/bureautique/fonction-index-equiv-excel/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Ffonction-index-equiv-excel%2F&format=xml (from https://www.educademy.fr/academie/bureautique/fonction-index-equiv-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/fonction-index-equiv-excel-1024x576.webp (from https://www.educademy.fr/academie/bureautique/fonction-index-equiv-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/fonction-index-equiv-excel.png (from https://www.educademy.fr/academie/bureautique/fonction-index-equiv-excel/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2612
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2612 to https://www.educademy.fr/academie/bureautique/formation-bureautique-excel-word-powerpoint/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fformation-bureautique-excel-word-powerpoint%2F (from https://www.educademy.fr/academie/bureautique/formation-bureautique-excel-word-powerpoint/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fformation-bureautique-excel-word-powerpoint%2F&format=xml (from https://www.educademy.fr/academie/bureautique/formation-bureautique-excel-word-powerpoint/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/Photos-articles-3-1024x683.png (from https://www.educademy.fr/academie/bureautique/formation-bureautique-excel-word-powerpoint/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/Photos-articles-3-scaled.png (from https://www.educademy.fr/academie/bureautique/formation-bureautique-excel-word-powerpoint/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2184
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2184 to https://www.educademy.fr/academie/bureautique/logiciel-bureautique/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Flogiciel-bureautique%2F (from https://www.educademy.fr/academie/bureautique/logiciel-bureautique/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Flogiciel-bureautique%2F&format=xml (from https://www.educademy.fr/academie/bureautique/logiciel-bureautique/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/logiciels-bureautique-1024x617.webp (from https://www.educademy.fr/academie/bureautique/logiciel-bureautique/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2568
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2568 to https://www.educademy.fr/academie/bureautique/comment-aller-a-la-ligne-cellule-excel/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-aller-a-la-ligne-cellule-excel%2F (from https://www.educademy.fr/academie/bureautique/comment-aller-a-la-ligne-cellule-excel/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-aller-a-la-ligne-cellule-excel%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-aller-a-la-ligne-cellule-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/Photos-articles-1024x667.webp (from https://www.educademy.fr/academie/bureautique/comment-aller-a-la-ligne-cellule-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/Photos-articles.png (from https://www.educademy.fr/academie/bureautique/comment-aller-a-la-ligne-cellule-excel/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2176
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2176 to https://www.educademy.fr/academie/bureautique/comment-faire-graphique-excel/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-graphique-excel%2F (from https://www.educademy.fr/academie/bureautique/comment-faire-graphique-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-graphique-excel%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-faire-graphique-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2174 (from https://www.educademy.fr/academie/bureautique/comment-faire-tableau-excel/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-tableau-excel%2F (from https://www.educademy.fr/academie/bureautique/comment-faire-tableau-excel/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-tableau-excel%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-faire-tableau-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/formation-excel-1024x683.webp (from https://www.educademy.fr/academie/bureautique/comment-faire-tableau-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/formation-excel-scaled.jpg (from https://www.educademy.fr/academie/bureautique/comment-faire-tableau-excel/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2537
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2537 to https://www.educademy.fr/academie/bureautique/comment-faire-liste-deroulante-excel/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-liste-deroulante-excel%2F (from https://www.educademy.fr/academie/bureautique/comment-faire-liste-deroulante-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-liste-deroulante-excel%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-faire-liste-deroulante-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2550 (from https://www.educademy.fr/academie/bureautique/fusionner-cellules-excel/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Ffusionner-cellules-excel%2F (from https://www.educademy.fr/academie/bureautique/fusionner-cellules-excel/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Ffusionner-cellules-excel%2F&format=xml (from https://www.educademy.fr/academie/bureautique/fusionner-cellules-excel/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/Excel-fusionner-les-cellules-1024x659.png (from https://www.educademy.fr/academie/bureautique/fusionner-cellules-excel/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2172
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2172 to https://www.educademy.fr/academie/bureautique/formation-excel-cpf/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fformation-excel-cpf%2F (from https://www.educademy.fr/academie/bureautique/formation-excel-cpf/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fformation-excel-cpf%2F&format=xml (from https://www.educademy.fr/academie/bureautique/formation-excel-cpf/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2160
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2160 to https://www.educademy.fr/academie/bureautique/formation-pack-office/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fformation-pack-office%2F (from https://www.educademy.fr/academie/bureautique/formation-pack-office/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fformation-pack-office%2F&format=xml (from https://www.educademy.fr/academie/bureautique/formation-pack-office/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/formation-pack-office-1024x683.jpg (from https://www.educademy.fr/academie/bureautique/formation-pack-office/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/formation-pack-office-scaled.jpg (from https://www.educademy.fr/academie/bureautique/formation-pack-office/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2974 (from https://www.educademy.fr/academie/bureautique/comment-cocher-case-word/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-cocher-case-word%2F (from https://www.educademy.fr/academie/bureautique/comment-cocher-case-word/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-cocher-case-word%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-cocher-case-word/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/09/comment-cocher-case-word-1024x683.png (from https://www.educademy.fr/academie/bureautique/comment-cocher-case-word/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2534
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2534 to https://www.educademy.fr/academie/bureautique/comment-convertir-word-en-pdf/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-convertir-word-en-pdf%2F (from https://www.educademy.fr/academie/bureautique/comment-convertir-word-en-pdf/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-convertir-word-en-pdf%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-convertir-word-en-pdf/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/Word-en-PDF-formation-Word-1024x683.webp (from https://www.educademy.fr/academie/bureautique/comment-convertir-word-en-pdf/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2159
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2159 to https://www.educademy.fr/academie/bureautique/comment-faire-sommaire-word/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-sommaire-word%2F (from https://www.educademy.fr/academie/bureautique/comment-faire-sommaire-word/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-faire-sommaire-word%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-faire-sommaire-word/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/word-article-1024x683.jpg (from https://www.educademy.fr/academie/bureautique/comment-faire-sommaire-word/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/word-article-scaled.jpg (from https://www.educademy.fr/academie/bureautique/comment-faire-sommaire-word/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2541
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2541 to https://www.educademy.fr/academie/bureautique/accent-sur-majuscule-word/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Faccent-sur-majuscule-word%2F (from https://www.educademy.fr/academie/bureautique/accent-sur-majuscule-word/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Faccent-sur-majuscule-word%2F&format=xml (from https://www.educademy.fr/academie/bureautique/accent-sur-majuscule-word/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/word-comment-mettre-laccent-majuscule-1024x652.png (from https://www.educademy.fr/academie/bureautique/accent-sur-majuscule-word/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2209
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2209 to https://www.educademy.fr/academie/bureautique/comment-numeroter-page-word/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-numeroter-page-word%2F (from https://www.educademy.fr/academie/bureautique/comment-numeroter-page-word/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-numeroter-page-word%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-numeroter-page-word/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/Design-sans-titre-6-1024x683.png (from https://www.educademy.fr/academie/bureautique/comment-numeroter-page-word/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1848
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=1848 to https://www.educademy.fr/academie/bureautique/comment-supprimer-page-word/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-supprimer-page-word%2F (from https://www.educademy.fr/academie/bureautique/comment-supprimer-page-word/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Fbureautique%2Fcomment-supprimer-page-word%2F&format=xml (from https://www.educademy.fr/academie/bureautique/comment-supprimer-page-word/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2207
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2207 to https://www.educademy.fr/academie/financement/financement-formation-opco/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Ffinancement-formation-opco%2F (from https://www.educademy.fr/academie/financement/financement-formation-opco/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Ffinancement-formation-opco%2F&format=xml (from https://www.educademy.fr/academie/financement/financement-formation-opco/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=1550 (from https://www.educademy.fr/academie/financement/comment-utiliser-cpf/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fcomment-utiliser-cpf%2F (from https://www.educademy.fr/academie/financement/comment-utiliser-cpf/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fcomment-utiliser-cpf%2F&format=xml (from https://www.educademy.fr/academie/financement/comment-utiliser-cpf/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2203
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2203 to https://www.educademy.fr/academie/financement/financement-formation-france-travail/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Ffinancement-formation-france-travail%2F (from https://www.educademy.fr/academie/financement/financement-formation-france-travail/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Ffinancement-formation-france-travail%2F&format=xml (from https://www.educademy.fr/academie/financement/financement-formation-france-travail/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2997 (from https://www.educademy.fr/academie/financement/opco-2i/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fopco-2i%2F (from https://www.educademy.fr/academie/financement/opco-2i/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fopco-2i%2F&format=xml (from https://www.educademy.fr/academie/financement/opco-2i/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/10/opco2i_logo-1024x512.jpeg (from https://www.educademy.fr/academie/financement/opco-2i/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/10/opco2i_logo.jpeg (from https://www.educademy.fr/academie/financement/opco-2i/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1543
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=1543 to https://www.educademy.fr/academie/financement/quelle-formation-avec-cpf/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fquelle-formation-avec-cpf%2F (from https://www.educademy.fr/academie/financement/quelle-formation-avec-cpf/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fquelle-formation-avec-cpf%2F&format=xml (from https://www.educademy.fr/academie/financement/quelle-formation-avec-cpf/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/07/quelle-formation-cpf-1024x683.jpg (from https://www.educademy.fr/academie/financement/quelle-formation-avec-cpf/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2205
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2205 to https://www.educademy.fr/academie/financement/aide-financement-formation/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Faide-financement-formation%2F (from https://www.educademy.fr/academie/financement/aide-financement-formation/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Faide-financement-formation%2F&format=xml (from https://www.educademy.fr/academie/financement/aide-financement-formation/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/aides-financement-formation-1024x576.jpg (from https://www.educademy.fr/academie/financement/aide-financement-formation/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=1891
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=1891 to https://www.educademy.fr/academie/financement/comment-connaitre-son-solde-cpf/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fcomment-connaitre-son-solde-cpf%2F (from https://www.educademy.fr/academie/financement/comment-connaitre-son-solde-cpf/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fcomment-connaitre-son-solde-cpf%2F&format=xml (from https://www.educademy.fr/academie/financement/comment-connaitre-son-solde-cpf/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/?p=2587 (from https://www.educademy.fr/academie/financement/france-identite/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Ffrance-identite%2F (from https://www.educademy.fr/academie/financement/france-identite/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Ffrance-identite%2F&format=xml (from https://www.educademy.fr/academie/financement/france-identite/)
+21:35:21	Error: 	"Too Many Requests" (429) at link https://www.educademy.fr/wp-content/uploads/2025/08/france-identite-1-1024x617.png (from https://www.educademy.fr/academie/financement/france-identite/)
+21:35:21	Warning: 	Moved Permanently for https://www.educademy.fr/?p=2617
+21:35:21	Warning: 	File has moved from https://www.educademy.fr/?p=2617 to https://www.educademy.fr/academie/financement/comment-connaitre-son-opco/
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fcomment-connaitre-son-opco%2F (from https://www.educademy.fr/academie/financement/comment-connaitre-son-opco/)
+21:35:21	Error: 	"Not Found" (404) at link https://www.educademy.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educademy.fr%2Facademie%2Ffinancement%2Fcomment-connaitre-son-opco%2F&format=xml (from https://www.educademy.fr/academie/financement/comment-connaitre-son-opco/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 15 minutes 57 seconds : 1026 links scanned, 602 files written (221621794 bytes overall) [209549514 bytes received at 218965 bytes/sec], 18661202 bytes transferred using HTTP compression in 388 files, ratio 24%, 6.0 requests per connection
+(324 errors, 199 warnings, 0 messages)

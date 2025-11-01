@@ -1,0 +1,31 @@
+:root {
+  --brand-900: #021024;
+  --brand-800: #052659;
+  --brand-500: #5483b3;
+  --brand-300: #7da0c4;
+  --brand-100: #c1e8ff;
+  --primary: var(--brand-500);
+  --primary-hover: #42739e;
+  --text: #0f172a;
+  --text-muted: rgba(15, 23, 42, 0.72);
+  --text-inverse: #ffffff;
+  --border: rgba(2, 16, 36, 0.12);
+  --bg-soft: #f7fbff;
+  --shadow-soft: 0 24px 60px rgba(2, 16, 36, 0.12);
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+  --max-width: 1200px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #eaf2ff;
+    --text-muted: rgba(226, 232, 240, 0.72);
+    --bg-soft: rgba(2, 16, 36, 0.78);
+    --border: rgba(193, 232, 255, 0.12);
+    color-scheme: dark;
+  }
+}
+
