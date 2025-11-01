@@ -5,7 +5,7 @@
 - **Site en ligne (GitHub Pages)** : https://boostactivity.github.io/boost-activity-site/
 
 ## Travaux réalisés
-- Création des pages `a-propos/`, `cas-clients/` et `legal/` avec navigation harmonisée et contenus orientés résultats.
+- Création des pages `a-propos/`, `cas-clients/`, `approche/`, `methodologie/`, `faq/` et `legal/` avec navigation harmonisée et contenus orientés résultats.
 - Mise à jour de toutes les barres de navigation (desktop & mobile) avec sous-menu Services et accès direct aux nouvelles pages.
 - Ajout des données structurées (FAQ + Organization), renforcement des styles (`testimonial-grid`, `legal` layout) et mise à jour du sitemap.
 - Génération des exports (dist/, export-lovable/, export-lovable.zip) après lint & build.

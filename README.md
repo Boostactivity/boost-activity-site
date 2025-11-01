@@ -6,7 +6,7 @@ Ce dépôt contient la refonte du modèle Educademy adaptée à l'identité **Bo
 - `src/` – pages HTML prêtes pour l'intégration :
   - `index.html` (accueil)
   - `services/` (index + offres DropEats, acquisition locale, SEO, assets, gestion Uber/Deliveroo)
-  - `contact/`, `a-propos/`, `cas-clients/`
+  - `contact/`, `a-propos/`, `cas-clients/`, `approche/`, `methodologie/`, `faq/`
   - `legal/` (mentions légales & politique de confidentialité)
 - `assets/` – styles, scripts et visuels (placeholders à remplacer si besoin).
 - `scripts/build.js` – script de build (esbuild + minification + export Lovable).
