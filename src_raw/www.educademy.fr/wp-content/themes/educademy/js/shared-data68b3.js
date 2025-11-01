@@ -1,1 +1,0 @@
-const TEXT_DOMAIN = 'educademy';

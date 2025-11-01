@@ -10,7 +10,6 @@ Ce dépôt contient la refonte du modèle Educademy adaptée à l'identité **Bo
   - `legal/` (mentions légales & politique de confidentialité)
 - `assets/` – styles, scripts et visuels (placeholders à remplacer si besoin).
 - `scripts/build.js` – script de build (esbuild + minification + export Lovable).
-- `src_raw/` – copie brute du snapshot HTTrack (non utilisée au build, conservée en référence).
 - `dist/` – sortie de build (générée).
 - `export-lovable/` & `export-lovable.zip` – export nettoyé pour Lovable (générés).
 - `report.md` – récapitulatif de livraison (URLs, TODO restants, consignes Lovable).
