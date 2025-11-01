@@ -6,9 +6,16 @@
 
 ## Travaux réalisés
 - Création des pages `a-propos/`, `cas-clients/`, `approche/`, `methodologie/`, `faq/` et `legal/` avec navigation harmonisée et contenus orientés résultats.
-- Mise à jour de toutes les barres de navigation (desktop & mobile) avec sous-menu Services et accès direct aux nouvelles pages.
+- Normalisation des chemins pour GitHub Pages (`<base href="/boost-activity-site/">`, ressources partagées, constante JS `BASE`).
+- Refonte du menu sticky + hamburger (ARIA, focus trap, fermeture automatique) et alignement des ancres sur toutes les pages.
 - Ajout des données structurées (FAQ + Organization), renforcement des styles (`testimonial-grid`, `legal` layout) et mise à jour du sitemap.
-- Génération des exports (dist/, export-lovable/, export-lovable.zip) après lint & build.
+- Génération des exports (`dist/`, `export-lovable/`, `export-lovable.zip`) après lint, build et link-check 404 personnalisé.
+
+## Pages corrigées
+- `index.html` – ressources CSS/JS servies via BASE, menu mobile accessible.
+- `services/index.html` – CTA “Consulter la fiche service” renvoient vers les pages dédiées (plus de `index.htmldropeats.html`).
+- `legal/mentions.html` & `legal/privacy.html` – liens croisés pointent vers `/legal/...` (plus de 404).
+- Toutes les pages – images/favicons préfixées, attributs `width/height`, script principal chargé depuis `assets/js/main.js`.
 
 ## Assets à fournir / à confirmer
 - Logo final, favicon, image Open Graph (`assets/img/` actuellement en placeholders).

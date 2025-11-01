@@ -61,6 +61,8 @@ Lance un serveur HTTP statique sur `dist/` (http-server). Utilisez ce script apr
 ## Déploiement GitHub Pages
 Le workflow `/.github/workflows/pages.yml` build automatiquement le site et publie le contenu de `dist/` sur GitHub Pages (mode « Pages from Actions »). Assurez-vous d'activer GitHub Pages sur la branche `gh-pages` générée par le workflow.
 
+> ℹ️ Le site repose sur la balise `<base href="/boost-activity-site/">` (Project Pages). Conservez ce préfixe pour que toutes les ressources (`assets/...`) restent valides sur GitHub Pages.
+
 ## À compléter
 - Renseigner les identifiants Google Tag Manager et Meta Pixel (placeholders dans `src/index.html`).
 - Actualiser le numéro WhatsApp et l'URL de prise de rendez-vous.
