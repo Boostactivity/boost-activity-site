@@ -3,12 +3,17 @@
 Ce dépôt contient la refonte du modèle Educademy adaptée à l'identité **Boost Activity**. Le site est statique (HTML/CSS/JS) et s'appuie sur un pipeline Node.js minimal pour la construction, la minification et l'export.
 
 ## Structure
-- `src/` – pages HTML prêtes pour l'intégration (accueil, services, contact).
+- `src/` – pages HTML prêtes pour l'intégration :
+  - `index.html` (accueil)
+  - `services/` (index + offres DropEats, acquisition locale, SEO, assets, gestion Uber/Deliveroo)
+  - `contact/`, `a-propos/`, `cas-clients/`
+  - `legal/` (mentions légales & politique de confidentialité)
 - `assets/` – styles, scripts et visuels (placeholders à remplacer si besoin).
 - `scripts/build.js` – script de build (esbuild + minification + export Lovable).
 - `src_raw/` – copie brute du snapshot HTTrack (non utilisée au build, conservée en référence).
 - `dist/` – sortie de build (générée).
 - `export-lovable/` & `export-lovable.zip` – export nettoyé pour Lovable (générés).
+- `report.md` – récapitulatif de livraison (URLs, TODO restants, consignes Lovable).
 
 ## Palette & branding
 Les variables de couleur sont définies dans `assets/css/theme.css`. Pour modifier la charte :
@@ -18,12 +23,11 @@ Les variables de couleur sont définies dans `assets/css/theme.css`. Pour modifi
 Les logos temporaires sont stockés dans `assets/img/`. Remplacez `logo-placeholder.svg`, `hero-placeholder.svg`, `favicon.png` et `og-image.png` par vos visuels finaux (même noms de fichiers pour éviter de casser les références).
 
 ## Contenu & services
-Les pages de services sont regroupées dans `src/services/`. Chaque fichier contient :
-- un en-tête harmonisé avec le menu principal,
-- les sections « impact », « livrables » et CTA,
-- des métadonnées SEO/OG prêtes à personnaliser.
-
-La page contact `src/contact/index.html` expose le formulaire mailto, le lien WhatsApp (`https://wa.me/0000000000`) et le bouton calendrier (`https://cal.com/votre-calendrier`). Remplacez les placeholders par vos informations réelles.
+- Les pages de services sont regroupées dans `src/services/`. Chaque fiche reprend le même socle (impact, livrables, durée, CTA) et le menu déroulant principal.
+- `src/cas-clients/index.html` rassemble études de cas + avis (remplacez les données chiffrées si nécessaire).
+- `src/a-propos/index.html` détaille mission, équipe et jalons. Adaptez la section « Quelques repères » et les fiches équipe selon vos profils.
+- `src/contact/index.html` expose le formulaire mailto, le lien WhatsApp (`https://wa.me/0000000000`) et le bouton calendrier (`https://cal.com/votre-calendrier`). Remplacez les placeholders par vos informations réelles.
+- Les pages légales sont dans `src/legal/`. Mettez à jour les informations (SIRET, adresse, durée de conservation…) avant mise en ligne.
 
 ## Développement
 ```bash
