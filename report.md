@@ -17,6 +17,16 @@
 - `legal/mentions.html` & `legal/privacy.html` – liens croisés pointent vers `/legal/...` (plus de 404).
 - Toutes les pages – images/favicons préfixées, attributs `width/height`, script principal chargé depuis `assets/js/main.js`.
 
+## Vérifications en production
+- https://boostactivity.github.io/boost-activity-site/index.html → 200
+- https://boostactivity.github.io/boost-activity-site/services/index.html → 200
+- https://boostactivity.github.io/boost-activity-site/services/dropeats.html → 200
+- https://boostactivity.github.io/boost-activity-site/cas-clients/index.html → 200
+- https://boostactivity.github.io/boost-activity-site/approche/index.html → 200
+- https://boostactivity.github.io/boost-activity-site/methodologie/index.html → 200
+- https://boostactivity.github.io/boost-activity-site/faq/index.html → 200
+- https://boostactivity.github.io/boost-activity-site/contact/index.html → 200
+
 ## Assets à fournir / à confirmer
 - Logo final, favicon, image Open Graph (`assets/img/` actuellement en placeholders).
 - Numéro WhatsApp, URL Calendly et identifiants Google Tag Manager / Meta Pixel.
