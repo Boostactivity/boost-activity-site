@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://boostactivity.github.io/boost-activity-site/sitemap.xml
