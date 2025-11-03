@@ -19,18 +19,18 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: false   # <-- IMPORTANT: ne pas installer le GITHUB_TOKEN dans git
+          persist-credentials: false   # <<< empêche d'injecter GITHUB_TOKEN
 
       - name: Configurer Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Purger l’auth par défaut de checkout (extraheader)
+      - name: Purger l’auth par défaut de checkout
         run: |
           git config --global --unset-all http.https://github.com/.extraheader || true
 
-      - name: Vérifier l’accès au dépôt B via l’API (optionnel)
+      - name: (Optionnel) Vérifier l’accès API à B
         run: |
           code=$(curl -s -o /dev/null -w "%{http_code}" \
             -H "Authorization: Bearer ${{ secrets.TARGET_TOKEN }}" \
@@ -39,7 +39,7 @@ jobs:
           echo "HTTP: $code"
           [ "$code" = "200" ]
 
-      - name: Ajouter B comme distant (avec ton PAT)
+      - name: Ajouter B comme distant (avec PAT)
         run: |
           git remote add target "https://x-access-token:${{ secrets.TARGET_TOKEN }}@github.com/${{ env.TARGET_REPO }}.git"
           git remote -v
@@ -52,6 +52,6 @@ jobs:
             git checkout -b ${{ env.TARGET_BRANCH }} HEAD
           fi
 
-      - name: Envoyer vers B (met à jour uniquement a-sync)
+      - name: Envoyer vers B (MAJ de a-sync)
         run: |
           git push target ${{ env.TARGET_BRANCH }} --force
