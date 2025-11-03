@@ -2,7 +2,7 @@ name: Miroir vers B (non destructif, sans workflows)
 
 on:
   push:
-    branches: [principal]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TARGET_REPO: Boostactivity/github-link-launch
-      TARGET_BRANCH: a-sync
+      TARGET_BRANCH: main
     steps:
       - name: Checkout A (sans cred persistants)
         uses: actions/checkout@v4
