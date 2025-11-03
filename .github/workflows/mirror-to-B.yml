@@ -2,7 +2,7 @@ name: Miroir vers B (non destructif)
 
 on:
   push:
-    branches: [principal]   # <-- mets 'principal' si c'est le nom affiché dans le sélecteur
+    branches: [principal]   # <— ta branche source
   workflow_dispatch:
 
 permissions:
@@ -12,12 +12,9 @@ jobs:
   miroir:
     runs-on: ubuntu-latest
     env:
-      TARGET_REPO: Boostactivity/github-link-launch   # dépôt B (owner/name)
-      TARGET_BRANCH: a-sync
+      TARGET_REPO: Boostactivity/github-link-launch   # dépôt B
+      TARGET_BRANCH: a-sync                           # branche miroir dans B
     steps:
-      - name: Créer un emploi
-        run: echo "start"
-
       - name: Vérifier A
         uses: actions/checkout@v4
         with:
@@ -28,8 +25,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # 🔎 Teste l'accès API au dépôt B avec le token (doit renvoyer 200)
-      - name: Vérifier l’accès au dépôt B via API
+      # (sécurité) validation que le token voit bien le dépôt B
+      - name: Vérifier l’accès au dépôt B via l’API
         run: |
           set -e
           code=$(curl -s -o /dev/null -w "%{http_code}" \
@@ -38,16 +35,16 @@ jobs:
             https://api.github.com/repos/${{ env.TARGET_REPO }})
           echo "HTTP: $code"
           if [ "$code" != "200" ]; then
-            echo "::error::Le token n’a PAS accès à ${{ env.TARGET_REPO }} (HTTP $code). Recrée le PAT: owner=Boostactivity, repo=github-link-launch, Contents=Read&Write."
+            echo "::error::Le token n’a PAS accès à ${{ env.TARGET_REPO }}. Recrée le PAT (owner=Boostactivity, repo=github-link-launch, Contents=Read&Write)."
             exit 1
           fi
 
-      - name: Ajouter B comme distant (écriture avec un jeton précis)
+      - name: Ajouter B comme remote (écriture avec token)
         run: |
           git remote add target "https://x-access-token:${{ secrets.TARGET_TOKEN }}@github.com/${{ env.TARGET_REPO }}.git"
           git remote -v
 
-      - name: Créer/mettre à jour une branche miroir locale
+      - name: Créer/mettre à jour la branche miroir locale
         run: |
           if git show-ref --verify --quiet refs/heads/${{ env.TARGET_BRANCH }}; then
             git branch -f ${{ env.TARGET_BRANCH }} HEAD
@@ -55,9 +52,6 @@ jobs:
             git checkout -b ${{ env.TARGET_BRANCH }} HEAD
           fi
 
-      - name: Envoyer vers B (mise à jour asynchrone uniquement)
+      - name: Envoyer vers B (met à jour uniquement a-sync)
         run: |
           git push target ${{ env.TARGET_BRANCH }} --force
-
-      - name: Poste de caisse A
-        run: echo "done"
