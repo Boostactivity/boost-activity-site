@@ -250,6 +250,42 @@ nav.primary-nav .submenu a:hover {
   margin-top: 2.5rem;
 }
 
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  box-shadow: 0 16px 32px rgba(2, 16, 36, 0.08);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(2, 16, 36, 0.08);
+  text-align: left;
+}
+
+.comparison-table thead {
+  background: var(--brand-100);
+  color: var(--brand-900);
+}
+
+.comparison-table tbody tr:nth-child(even) {
+  background: rgba(193, 232, 255, 0.18);
+}
+
+.comparison-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table-note {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
 .card {
   background: #ffffff;
   border-radius: var(--radius-lg);
@@ -709,6 +745,20 @@ footer.site-footer {
   gap: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   padding-top: 1.5rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.footer-links a:hover {
+  color: #ffffff;
 }
 
 .social-links {

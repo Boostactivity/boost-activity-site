@@ -1,70 +1,72 @@
-# Boost Activity – Site vitrine
+# Boost Activity – site vitrine
 
-Ce dépôt contient la refonte du modèle Educademy adaptée à l'identité **Boost Activity**. Le site est statique (HTML/CSS/JS) et s'appuie sur un pipeline Node.js minimal pour la construction, la minification et l'export.
+Site professionnel statique (HTML/CSS/JS) pour la marque **Boost Activity**. Le dépôt inclut l’ensemble des pages métiers, un pipeline de build et un export Lovable prêt à l’emploi.
 
-## Structure
-- `src/` – pages HTML prêtes pour l'intégration :
+## Structure principale
+- `src/`
   - `index.html` (accueil)
-  - `services/` (index + offres DropEats, acquisition locale, SEO, assets, gestion Uber/Deliveroo)
-  - `contact/`, `a-propos/`, `cas-clients/`, `approche/`, `methodologie/`, `faq/`
-  - `legal/` (mentions légales & politique de confidentialité)
-- `assets/` – styles, scripts et visuels (placeholders à remplacer si besoin).
-- `scripts/build.js` – script de build (esbuild + minification + export Lovable).
-- `dist/` – sortie de build (générée).
-- `export-lovable/` & `export-lovable.zip` – export nettoyé pour Lovable (générés).
-- `report.md` – récapitulatif de livraison (URLs, TODO restants, consignes Lovable).
-
-## Palette & branding
-Les variables de couleur sont définies dans `assets/css/theme.css`. Pour modifier la charte :
-1. Ajuster les variables `--brand-*` ainsi que `--primary`, `--primary-hover`, `--text`, etc.
-2. Rafraîchir les gradients éventuels dans `assets/css/main.css` si nécessaire.
-
-Les logos temporaires sont stockés dans `assets/img/`. Remplacez `logo-placeholder.svg`, `hero-placeholder.svg`, `favicon.png` et `og-image.png` par vos visuels finaux (même noms de fichiers pour éviter de casser les références).
-
-## Contenu & services
-- Les pages de services sont regroupées dans `src/services/`. Chaque fiche reprend le même socle (impact, livrables, durée, CTA) et le menu déroulant principal.
-- `src/cas-clients/index.html` rassemble études de cas + avis (remplacez les données chiffrées si nécessaire).
-- `src/a-propos/index.html` détaille mission, équipe et jalons. Adaptez la section « Quelques repères » et les fiches équipe selon vos profils.
-- `src/contact/index.html` expose le formulaire mailto, le lien WhatsApp (`https://wa.me/0000000000`) et le bouton calendrier (`https://cal.com/votre-calendrier`). Remplacez les placeholders par vos informations réelles.
-- Les pages légales sont dans `src/legal/`. Mettez à jour les informations (SIRET, adresse, durée de conservation…) avant mise en ligne.
+  - `services/` : index + fiches DropEats, acquisition locale, SEO local, création d’assets, gestion Uber/Deliveroo
+  - `cas-clients/`, `a-propos/`, `contact/`
+  - `legal/` : mentions légales & politique de confidentialité
+- `assets/` : styles (`css`), scripts (`js`), images (placeholders explicites)
+- `scripts/`
+  - `build.js` : bundle/minification + export Lovable
+  - `check-links.mjs` : vérification des liens internes sur `dist/`
+- `dist/` : build de production (généré)
+- `export-lovable/` + `export-lovable.zip` : miroir statique pour Lovable (générés)
+- `report.md` : synthèse de livraison, TODO et consignes Lovable
 
 ## Développement
 ```bash
 npm install
-npm run dev   # build initial + watch (dist/ se rafraîchit)
+npm run dev          # build initial + watch (dist/ et export-lovable/ mis à jour)
 ```
-Le mode watch regénère `dist/`, `export-lovable/` et `export-lovable.zip` à chaque modification détectée sur `src/`, `assets/`, `robots.txt` ou `sitemap.xml`.
 
-### Lint & qualité
+### Qualité
 ```bash
-npm run lint:html   # contrôle accessibilité/structure HTML
-npm run lint:css    # vérification Stylelint
+npm run lint:html    # accessibilité & structure (html-validate)
+npm run lint:css     # conventions CSS (stylelint)
+node scripts/check-links.mjs   # vérifie les liens internes sur dist/
 ```
 
 ## Build & export
 ```bash
 npm run build
 ```
-Ce script :
-1. Nettoie `dist/`, `export-lovable/` et l'archive `.zip`.
-2. Bundle et minifie le JS via esbuild.
-3. Minifie les CSS (csso).
-4. Copie les HTML/visuels/statics vers `dist/`.
-5. Crée le miroir Lovable (`export-lovable/`) + `export-lovable.zip` prêt à importer.
+Le script :
+1. Nettoie `dist/`, `export-lovable/` et `export-lovable.zip`.
+2. Bundle le JS (`assets/js/main.js`) avec esbuild et minifie les CSS.
+3. Copie HTML, images, robots.txt et sitemap vers `dist/`.
+4. Duplique `dist/` dans `export-lovable/` puis génère `export-lovable.zip`.
 
-## Prévisualisation locale
+Prévisualisation locale :
 ```bash
-npm run preview
+npm run preview      # sert dist/ via http-server
 ```
-Lance un serveur HTTP statique sur `dist/` (http-server). Utilisez ce script après `npm run build`.
+
+## Personnalisation
+- **Palette & ton** : modifier `assets/css/theme.css` (`--brand-*`, `--primary`, etc.). Ajuster les gradients dédiés dans `assets/css/main.css` si besoin.
+- **Visuels** : remplacer dans `assets/img/` les placeholders (`logo-placeholder.svg`, `hero-placeholder.svg`, `og-image.png`, `favicon.png`) par les assets réels en conservant les noms.
+- **Contenus** :
+  - Pages services (`src/services/*.html`) structurées en sections « Pourquoi / Comment / Impact / Résultats attendus » avec tableaux comparatifs et CTA.
+  - `src/cas-clients/index.html` : études de cas chiffrées + témoignages (adapter aux références réelles).
+  - `src/contact/index.html` : formulaire `mailto`, lien WhatsApp `https://wa.me/33600000000` et prise de rendez-vous `https://cal.com/boostactivity/rdv`.
+  - Légales (`src/legal/`) : compléter SIRET, responsable publication, contact DPO (`<!-- TODO: compléter -->`).
+- **Tracking** : placeholders Google Tag Manager & Meta Pixel dans `src/index.html`.
 
 ## Déploiement GitHub Pages
-Le workflow `/.github/workflows/pages.yml` build automatiquement le site et publie le contenu de `dist/` sur GitHub Pages (mode « Pages from Actions »). Assurez-vous d'activer GitHub Pages sur la branche `gh-pages` générée par le workflow.
+- Branch `main` → workflow GitHub Actions (déjà présent) construit `dist/` et publie sur Pages (mode « Project Pages »).
+- Toutes les ressources utilisent des chemins relatifs (`assets/...`, `../assets/...`), aucun `<base>` requis.
+- URL de preview : `https://boostactivity.github.io/boost-activity-site/`.
 
-> ℹ️ Le site repose sur la balise `<base href="/boost-activity-site/">` (Project Pages). Conservez ce préfixe pour que toutes les ressources (`assets/...`) restent valides sur GitHub Pages.
+## Lovable
+- Build command : `npm ci && npm run build`
+- Output directory : `dist`
+- Export statique alternatif : `export-lovable/` ou archive `export-lovable.zip`
+- Pensez à connecter le dépôt miroir `github-link-launch` côté Lovable et sélectionner ces paramètres dans l’interface.
 
-## À compléter
-- Renseigner les identifiants Google Tag Manager et Meta Pixel (placeholders dans `src/index.html`).
-- Actualiser le numéro WhatsApp et l'URL de prise de rendez-vous.
-- Remplacer les visuels placeholder par les assets officiels si disponibles.
-- Renseigner les métadonnées OG/Twitter spécifiques à chaque page si besoin.
+## À compléter avant mise en ligne
+- Renseigner les identifiants de tracking (GTM, Meta Pixel) une fois le consentement validé.
+- Remplacer les visuels placeholders par des photos/vidéos officielles.
+- Mettre à jour WhatsApp et lien Cal.com avec les coordonnées définitives.
+- Compléter SIRET, responsables et mentions légales exactes.

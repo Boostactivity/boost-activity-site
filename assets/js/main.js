@@ -1,6 +1,3 @@
-const BASE = '/boost-activity-site';
-window.BASE = BASE;
-
 document.addEventListener('DOMContentLoaded', () => {
   const mobileToggle = document.querySelector('[data-mobile-toggle]');
   const mobileMenu = document.querySelector('[data-mobile-menu]');

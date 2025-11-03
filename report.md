@@ -1,43 +1,55 @@
 # Boost Activity – Rapport de livraison
 
-## URLs
-- **Dépôt GitHub** : https://github.com/Boostactivity/boost-activity-site
-- **Site en ligne (GitHub Pages)** : https://boostactivity.github.io/boost-activity-site/
+## Liens essentiels
+- **Dépôt** : https://github.com/Boostactivity/boost-activity-site
+- **GitHub Pages** : https://boostactivity.github.io/boost-activity-site/
+- **Export Lovable** : `export-lovable/export-lovable.zip` (généré par `npm run build`)
 
-## Travaux réalisés
-- Création des pages `a-propos/`, `cas-clients/`, `approche/`, `methodologie/`, `faq/` et `legal/` avec navigation harmonisée et contenus orientés résultats.
-- Normalisation des chemins pour GitHub Pages (`<base href="/boost-activity-site/">`, ressources partagées, constante JS `BASE`).
-- Refonte du menu sticky + hamburger (ARIA, focus trap, fermeture automatique) et alignement des ancres sur toutes les pages.
-- Ajout des données structurées (FAQ + Organization), renforcement des styles (`testimonial-grid`, `legal` layout) et mise à jour du sitemap.
-- Génération des exports (`dist/`, `export-lovable/`, `export-lovable.zip`) après lint, build et link-check 404 personnalisé.
+## Périmètre livré
+- Navigation unique responsive (desktop & mobile) avec aria-labels, focus trap et fermeture auto.
+- Refactoring complet des pages HTML (accueil, services, cas clients, à propos, contact, légales) :
+  - Chemins 100 % relatifs (support Project Pages).
+  - Titre + meta description uniques, balises OG/Twitter per-page.
+  - Sections services structurées « Pourquoi / Comment / Impact / Résultats » + tableaux comparatifs.
+  - `cas-clients` enrichi (cas chiffrés, témoignages, tableau consolidé).
+- Mise à jour CSS (tableaux comparatifs, footer links, helpers responsive) et JS (suppression de `BASE`, menu/burger accessible).
+- `sitemap.xml` & `robots.txt` alignés sur l’arborescence actuelle.
 
-## Pages corrigées
-- `index.html` – ressources CSS/JS servies via BASE, menu mobile accessible.
-- `services/index.html` – CTA “Consulter la fiche service” renvoient vers les pages dédiées (plus de `index.htmldropeats.html`).
-- `legal/mentions.html` & `legal/privacy.html` – liens croisés pointent vers `/legal/...` (plus de 404).
-- Toutes les pages – images/favicons préfixées, attributs `width/height`, script principal chargé depuis `assets/js/main.js`.
+## Pages modifiées / ajoutées
+- `src/index.html` – contenu héro, proposition de valeur, CTA, témoignages, CTA final.
+- `src/services/*.html` – structure services, CTA mini, tableaux KPI, liens relatifs corrigés.
+- `src/services/index.html` – sommaire services + comparatif rapide + formules d’accompagnement.
+- `src/cas-clients/index.html` – études de cas, tableau KPI consolidé, CTA contact.
+- `src/a-propos/index.html` – storytelling, repères, CTA mis à jour.
+- `src/contact/index.html` – formulaire mailto, WhatsApp `https://wa.me/33600000000`, Cal.com `https://cal.com/boostactivity/rdv`.
+- `src/legal/mentions.html` & `src/legal/privacy.html` – placeholders `<!-- TODO: compléter -->` aux champs sensibles, nav accessible.
+- `assets/css/main.css` & `assets/js/main.js` – nouveaux styles (tab. comparatif, footer) et JS sans préfixe absolu.
+- `scripts/check-links.mjs` – vérification 404 internes sur `dist/`.
 
-## Vérifications en production
-- https://boostactivity.github.io/boost-activity-site/index.html → 200
-- https://boostactivity.github.io/boost-activity-site/services/index.html → 200
-- https://boostactivity.github.io/boost-activity-site/services/dropeats.html → 200
-- https://boostactivity.github.io/boost-activity-site/cas-clients/index.html → 200
-- https://boostactivity.github.io/boost-activity-site/approche/index.html → 200
-- https://boostactivity.github.io/boost-activity-site/methodologie/index.html → 200
-- https://boostactivity.github.io/boost-activity-site/faq/index.html → 200
-- https://boostactivity.github.io/boost-activity-site/contact/index.html → 200
+## Qualité & build
+- `npm run lint:html`
+- `npm run lint:css`
+- `npm run build`
+- `node scripts/check-links.mjs`
+→ tous OK au 19/04/2025, 19:19.
 
-## Assets à fournir / à confirmer
-- Logo final, favicon, image Open Graph (`assets/img/` actuellement en placeholders).
-- Numéro WhatsApp, URL Calendly et identifiants Google Tag Manager / Meta Pixel.
-- Informations légales exactes (SIRET, adresse, sous-traitants, durées de conservation).
+## TODO / entrées à compléter
+- Remplacer les visuels placeholders (`assets/img/logo-placeholder.svg`, `hero-placeholder.svg`, `og-image.png`, `favicon.png`) par les assets officiels.
+- Renseigner les identifiants Google Tag Manager & Meta Pixel (placeholders dans `src/index.html`).
+- Confirmer / ajuster :
+  - Numéro WhatsApp (`https://wa.me/33600000000`)
+  - Lien Cal.com (`https://cal.com/boostactivity/rdv`)
+  - SIRET, capital, responsable publication, contact DPO (`<!-- TODO: compléter -->`).
 
-## Prochaines étapes Lovable
-1. Se rendre dans Lovable > Importer un site.
-2. Téléverser l’archive `export-lovable.zip` générée à la racine du dépôt.
-3. Vérifier les liens internes (services, cas clients, mentions) puis publier.
+## Checklist Lovable
+1. Dans Lovable, connecter le dépôt miroir `github-link-launch` (branche `main`).
+2. Paramétrer :
+   - **Build command** : `npm ci && npm run build`
+   - **Output directory** : `dist`
+3. Si l’interface ne déclenche pas la build, importer `export-lovable/export-lovable.zip` (fallback statique).
+4. Vérifier l’aperçu (navigation, assets, formulaires), puis publier.
 
-## Notes
-- Tests exécutés : `npm run lint:html`, `npm run lint:css`, `npm run build`.
-- La branche `gh-pages` contient la version statique (issue de `dist/`). Configurez GitHub Pages sur cette branche si ce n'est pas déjà actif.
-- La navigation sticky s’adapte mobile/desktop ; pensez à valider l’expérience responsive avec vos assets définitifs.
+## Notes complémentaires
+- Les chemins relatifs sont compatibles Project Pages et environnement Lovable.
+- Les cookies/tracking restent inactifs tant que le consentement n’est pas stocké (`boost-activity-consent`).
+- Reportez-vous au README pour la procédure complète (palette, scripts, déploiement).
