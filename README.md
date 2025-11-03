@@ -5,10 +5,10 @@ Site professionnel statique (HTML/CSS/JS) pour la marque **Boost Activity**. Le 
 ## Structure principale
 - `src/`
   - `index.html` (accueil)
-  - `services/` : index + fiches DropEats, acquisition locale, SEO local, création d’assets, gestion Uber/Deliveroo
-  - `cas-clients/`, `a-propos/`, `contact/`
+  - `services/` : index + fiches Drop Eats, acquisition locale, SEO local, création d’assets, gestion Uber/Deliveroo
+  - `cas-clients/`, `a-propos/`, `approche/`, `methodologie/`, `faq/`, `contact/`
   - `legal/` : mentions légales & politique de confidentialité
-- `assets/` : styles (`css`), scripts (`js`), images (placeholders explicites)
+- `assets/` : styles (`css`), scripts (`js`), images (placeholders explicites dont `team-placeholder.svg` à remplacer)
 - `scripts/`
   - `build.js` : bundle/minification + export Lovable
   - `check-links.mjs` : vérification des liens internes sur `dist/`
@@ -50,9 +50,11 @@ npm run preview      # sert dist/ via http-server
 - **Contenus** :
   - Pages services (`src/services/*.html`) structurées en sections « Pourquoi / Comment / Impact / Résultats attendus » avec tableaux comparatifs et CTA.
   - `src/cas-clients/index.html` : études de cas chiffrées + témoignages (adapter aux références réelles).
-  - `src/contact/index.html` : formulaire `mailto`, lien WhatsApp `https://wa.me/33600000000` et prise de rendez-vous `https://cal.com/boostactivity/rdv`.
+  - `src/contact/index.html` : formulaire `mailto`, lien WhatsApp `https://wa.me/33600000000`, lien `tel:` et prise de rendez-vous `https://cal.com/boostactivity/rdv`.
+  - `src/approche/`, `src/methodologie/`, `src/faq/` : pages éditoriales structurées (valeurs, méthode en 4 phases, FAQ avec `<details>`).
   - Légales (`src/legal/`) : compléter SIRET, responsable publication, contact DPO (`<!-- TODO: compléter -->`).
 - **Tracking** : placeholders Google Tag Manager & Meta Pixel dans `src/index.html`.
+- **Accessibilité** : chaque page embarque un lien « Aller au contenu principal ». conservez `id="main-content"` sur `<main>` et les attributs ARIA du menu burger.
 
 ## Déploiement GitHub Pages
 - Branch `main` → workflow GitHub Actions (déjà présent) construit `dist/` et publie sur Pages (mode « Project Pages »).
