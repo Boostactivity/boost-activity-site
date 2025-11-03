@@ -1,4 +1,4 @@
-name: Miroir vers B (non destructif)
+name: Miroir vers B (non destructif, sans workflows)
 
 on:
   push:
@@ -15,43 +15,41 @@ jobs:
       TARGET_REPO: Boostactivity/github-link-launch
       TARGET_BRANCH: a-sync
     steps:
-      - name: Vérifier A
+      - name: Checkout A (sans cred persistants)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: false   # <<< empêche d'injecter GITHUB_TOKEN
+          persist-credentials: false
 
-      - name: Configurer Git
+      - name: Config Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Purger l’auth par défaut de checkout
-        run: |
           git config --global --unset-all http.https://github.com/.extraheader || true
 
-      - name: (Optionnel) Vérifier l’accès API à B
+      - name: Préparer branche miroir locale
         run: |
-          code=$(curl -s -o /dev/null -w "%{http_code}" \
-            -H "Authorization: Bearer ${{ secrets.TARGET_TOKEN }}" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            https://api.github.com/repos/${{ env.TARGET_REPO }})
-          echo "HTTP: $code"
-          [ "$code" = "200" ]
+          # crée/MAJ la branche miroir à partir de HEAD
+          if git show-ref --verify --quiet refs/heads/${{ env.TARGET_BRANCH }}; then
+            git branch -f ${{ env.TARGET_BRANCH }} HEAD
+            git switch ${{ env.TARGET_BRANCH }}
+          else
+            git switch -c ${{ env.TARGET_BRANCH }} HEAD
+          fi
 
-      - name: Ajouter B comme distant (avec PAT)
+          # ❗️ Exclure les workflows du miroir
+          if [ -d ".github/workflows" ]; then
+            git rm -r --cached .github/workflows || true
+            rm -rf .github/workflows || true
+            git commit -m "chore: exclude .github/workflows from mirror" || true
+          fi
+
+      - name: Ajouter remote B (avec PAT)
         run: |
+          git remote remove target 2>/dev/null || true
           git remote add target "https://x-access-token:${{ secrets.TARGET_TOKEN }}@github.com/${{ env.TARGET_REPO }}.git"
           git remote -v
 
-      - name: Créer/mettre à jour la branche miroir locale
-        run: |
-          if git show-ref --verify --quiet refs/heads/${{ env.TARGET_BRANCH }}; then
-            git branch -f ${{ env.TARGET_BRANCH }} HEAD
-          else
-            git checkout -b ${{ env.TARGET_BRANCH }} HEAD
-          fi
-
-      - name: Envoyer vers B (MAJ de a-sync)
+      - name: Push vers B (MAJ de a-sync uniquement)
         run: |
           git push target ${{ env.TARGET_BRANCH }} --force
