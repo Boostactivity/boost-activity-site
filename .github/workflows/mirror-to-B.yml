@@ -12,8 +12,8 @@ jobs:
   miroir:
     runs-on: ubuntu-latest
     env:
-      TARGET_REPO: Boostactivity/github-link-launch   # dépôt B
-      TARGET_BRANCH: a-sync                           # branche miroir dans B
+      TARGET_REPO: Boostactivity/github-link-launch   # <— owner/repo correct
+      TARGET_BRANCH: a-sync
     steps:
       - name: Vérifier A
         uses: actions/checkout@v4
@@ -25,7 +25,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # (sécurité) validation que le token voit bien le dépôt B
       - name: Vérifier l’accès au dépôt B via l’API
         run: |
           set -e
@@ -39,7 +38,7 @@ jobs:
             exit 1
           fi
 
-      - name: Ajouter B comme remote (écriture avec token)
+      - name: Ajouter B comme distant (écriture avec token)
         run: |
           git remote add target "https://x-access-token:${{ secrets.TARGET_TOKEN }}@github.com/${{ env.TARGET_REPO }}.git"
           git remote -v
