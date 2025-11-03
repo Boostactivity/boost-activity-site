@@ -1,0 +1,43 @@
+name: Mirror to B (non-destructive)
+
+on:
+  push:
+    branches: [main]   # mets 'principal' si ta branche par défaut s'appelle ainsi
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    env:
+      TARGET_REPO: Boostactivity/github-link-launch   # dépôt B (owner/name)
+      TARGET_BRANCH: a-sync                           # branche miroir dans B
+    steps:
+      - name: Checkout A
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add B as remote (write with fine-grained token)
+        run: |
+          git remote add target "https://x-access-token:${{ secrets.TARGET_TOKEN }}@github.com/${{ env.TARGET_REPO }}.git"
+          git remote -v
+
+      - name: Create/update local mirror branch
+        run: |
+          if git show-ref --verify --quiet refs/heads/${{ env.TARGET_BRANCH }}; then
+            git branch -f ${{ env.TARGET_BRANCH }} HEAD
+          else
+            git checkout -b ${{ env.TARGET_BRANCH }} HEAD
+          fi
+
+      - name: Push to B (update a-sync only)
+        run: |
+          git push target ${{ env.TARGET_BRANCH }} --force
